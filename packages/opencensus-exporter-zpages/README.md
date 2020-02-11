@@ -36,7 +36,7 @@ Similarly for Typescript:
 
 ```typescript
 import * as tracing from '@opencensus/nodejs';
-import {ZpagesExporter, ZpagesExporterOptions} from '@opencensus/zpages-exporter';
+import {ZpagesExporter, ZpagesExporterOptions} from '@opencensus/exporter-zpages';
 
 // Add your zipkin url and application name to the Zipkin options
 const options: ZpagesExporterOptions = {
